@@ -1,0 +1,23 @@
+{
+  "name": "2020_gisworkshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikliu0801/2020_gisworkshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erikliu0801/2020_gisworkshop/issues"
+  },
+  "homepage": "https://github.com/erikliu0801/2020_gisworkshop#readme",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^0.21.0"
+  }
+}
