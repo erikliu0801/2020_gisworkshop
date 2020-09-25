@@ -4,20 +4,25 @@ theme: gaia
 class: lead
 ---
 # GIS WORKSHOP
-erik
+ERIK
 
 ---
 <!-- page_number: true -->
 Agenda
-
+* introduction of me & gis
+* gis stuffs
+* assignment 1
+* assignment 2
+* Q&A
+* quatsh
 
 ---
 <!-- page_number: true -->
 Intro
 
-Urban Planning in NCKU 
+Urban Planning(major) & Architecture(minor) in NCKU 
 Urban Planner in Engineering Consultants Ltd.
-Data Enginner in Startup
+Data Engineer in Startup
 Web GIS Developer in another Startup
 
 ---
@@ -51,7 +56,7 @@ Start to do something geographic and magic
 ---
 <!-- page_number: true -->
 Hello Wold!
-[]
+[QGIS Tutorials and Tips](http://www.qgistutorials.com/en/index.html)
 [QGIS 3 Plugin Tutorial](https://gis-ops.com/qgis-3-plugin-tutorial-plugin-development-explained-part-1/)
 [GIS Workshop](https://hackmd.io/EAoFhDmxQAeU8Qu6FspTjA)
 [GIS Workshop - WMS](https://hackmd.io/q_RGOAyIRsKVrLJqfN7CdQ)
@@ -59,16 +64,33 @@ Hello Wold!
 
 ---
 <!-- page_number: true -->
-Further More
-# Blender
+# Further More
 
+---
+<!-- page_number: true -->
+
+Blender
+[BlenderGIS](https://github.com/domlysz/BlenderGIS)
+![](https://raw.githubusercontent.com/wiki/domlysz/blenderGIS/Blender28x/gif/bgis_demo_webdata.gif)
+
+---
+<!-- page_number: true -->
+Rhino + Grasshopper
+[ELK](https://www.food4rhino.com/app/elk)
+![](https://player.vimeo.com/video/142881244)
+
+---
+<!-- page_number: true -->
+[KeplgerGL](https://kepler.gl)
+
+![height:12cm](https://d1a3f4spazzrp4.cloudfront.net/kepler.gl/website/hero/kepler.gl-contours.png)
 
 ---
 
 <!-- page_number: true -->
-In the last,
+Quatsch Zeit!
 
-i wanna tell a story,
+a story,
 
 part of architecture,
 part of non-architecture.
@@ -82,5 +104,11 @@ by Architect Mao
 
 ---
 <!-- page_number: true -->
-" Your original position moved by your life. "
+" Your original position will always be moved by your ongoing life. "
 \- my social service story
+
+---
+<!-- page_number: true -->
+Bis bald!
+
+Ein Leben ist zu kurz, ein Augenblick ist zu lang.
