@@ -1,0 +1,894 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="3.10.9-A Coruña">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</wkt>
+      <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+      <srsid>3857</srsid>
+      <srid>3857</srid>
+      <authid>EPSG:3857</authid>
+      <description>WGS 84 / Pseudo-Mercator</description>
+      <projectionacronym>merc</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer expanded="1" legend_exp="" checked="Qt::Checked" source="./new_h_lvr_land_a.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=latitude&amp;yField=longitude&amp;crs=EPSG:4326&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=no" name="new_h_lvr_land_a" providerKey="delimitedtext" id="new_h_lvr_land_a_1e35ce46_0539_471d_8b6a_5bac0ce2d3af">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" legend_exp="" checked="Qt::Checked" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=TOPO01K_H16&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://maps.nlsc.gov.tw/wmtsTOPO01K/" name="桃園市桃園市都市計畫_103_105年" providerKey="wms" id="桃園市桃園市都市計畫_103_105年_b9586928_b376_4665_a4d8_d7b4cb231d1b">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" legend_exp="" checked="Qt::Checked" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" name="OpenStreetMap" providerKey="wms" id="OpenStreetMap_24eefc11_253d_4850_8665_a0ee37df6041">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>OpenStreetMap_24eefc11_253d_4850_8665_a0ee37df6041</item>
+      <item>new_h_lvr_land_a_1e35ce46_0539_471d_8b6a_5bac0ce2d3af</item>
+      <item>桃園市桃園市都市計畫_103_105年_b9586928_b376_4665_a4d8_d7b4cb231d1b</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings unit="1" intersection-snapping="0" enabled="0" type="1" tolerance="12" mode="2">
+    <individual-layer-settings>
+      <layer-setting enabled="0" type="1" tolerance="12" units="1" id="new_h_lvr_land_a_1e35ce46_0539_471d_8b6a_5bac0ce2d3af"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>13471260.7410004734992981</xmin>
+      <ymin>2852909.35675119608640671</ymin>
+      <xmax>13516386.94637250155210495</xmax>
+      <ymax>2889846.85986834019422531</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</wkt>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo-Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer checked="Qt::Checked" name="new_h_lvr_land_a" drawingOrder="-1" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="1" layerid="new_h_lvr_land_a_1e35ce46_0539_471d_8b6a_5bac0ce2d3af"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" name="桃園市桃園市都市計畫_103_105年" drawingOrder="-1" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="1" layerid="桃園市桃園市都市計畫_103_105年_b9586928_b376_4665_a4d8_d7b4cb231d1b"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" name="OpenStreetMap" drawingOrder="-1" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="1" layerid="OpenStreetMap_24eefc11_253d_4850_8665_a0ee37df6041"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer minScale="1e+08" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" type="raster" styleCategories="AllStyleCategories" maxScale="0" autoRefreshTime="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>OpenStreetMap_24eefc11_253d_4850_8665_a0ee37df6041</id>
+      <datasource>crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>OpenStreetMap</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer alphaBand="-1" type="singlebandcolordata" opacity="1" band="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeOn="0" colorizeStrength="100" colorizeGreen="128" saturation="0" grayscaleMode="0" colorizeRed="255" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer refreshOnNotifyEnabled="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" simplifyAlgorithm="0" simplifyLocal="1" simplifyDrawingTol="1" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" type="vector" minScale="1e+08" maxScale="0" readOnly="0" autoRefreshTime="0" refreshOnNotifyMessage="" wkbType="Point" geometry="Point" simplifyDrawingHints="1">
+      <extent>
+        <xmin>121.02404599999999846</xmin>
+        <ymin>24.82111700000000098</ymin>
+        <xmax>121.4101179999999971</xmax>
+        <ymax>25.10760600000000053</ymax>
+      </extent>
+      <id>new_h_lvr_land_a_1e35ce46_0539_471d_8b6a_5bac0ce2d3af</id>
+      <datasource>file:./new_h_lvr_land_a.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=latitude&amp;yField=longitude&amp;crs=EPSG:4326&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>new_h_lvr_land_a</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="marker" name="0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
+              <prop v="0" k="angle"/>
+              <prop v="219,30,42,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="128,17,25,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.4" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="4" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="field_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="鄉鎮市區">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="交易標的">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="土地區段位置建物區段門牌">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="土地移轉總面積平方公尺">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="都市土地使用分區">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="非都市土地使用分區">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="非都市土地使用編定">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="交易年月日">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="交易筆棟數">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="移轉層次">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="總樓層數">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="建物型態">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="主要用途">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="主要建材">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="建築完成年月">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="建物移轉總面積平方公尺">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="建物現況格局-房">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="建物現況格局-廳">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="建物現況格局-衛">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="建物現況格局-隔間">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="有無管理組織">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="總價元">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="單價元平方公尺">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="車位類別">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="車位移轉總面積(平方公尺)">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="車位總價元">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="備註">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="編號">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="主建物面積">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="附屬建物面積">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="陽台面積">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="電梯">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="address">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="longitude">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="latitude">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="floor">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="field_1"/>
+        <alias index="1" name="" field="鄉鎮市區"/>
+        <alias index="2" name="" field="交易標的"/>
+        <alias index="3" name="" field="土地區段位置建物區段門牌"/>
+        <alias index="4" name="" field="土地移轉總面積平方公尺"/>
+        <alias index="5" name="" field="都市土地使用分區"/>
+        <alias index="6" name="" field="非都市土地使用分區"/>
+        <alias index="7" name="" field="非都市土地使用編定"/>
+        <alias index="8" name="" field="交易年月日"/>
+        <alias index="9" name="" field="交易筆棟數"/>
+        <alias index="10" name="" field="移轉層次"/>
+        <alias index="11" name="" field="總樓層數"/>
+        <alias index="12" name="" field="建物型態"/>
+        <alias index="13" name="" field="主要用途"/>
+        <alias index="14" name="" field="主要建材"/>
+        <alias index="15" name="" field="建築完成年月"/>
+        <alias index="16" name="" field="建物移轉總面積平方公尺"/>
+        <alias index="17" name="" field="建物現況格局-房"/>
+        <alias index="18" name="" field="建物現況格局-廳"/>
+        <alias index="19" name="" field="建物現況格局-衛"/>
+        <alias index="20" name="" field="建物現況格局-隔間"/>
+        <alias index="21" name="" field="有無管理組織"/>
+        <alias index="22" name="" field="總價元"/>
+        <alias index="23" name="" field="單價元平方公尺"/>
+        <alias index="24" name="" field="車位類別"/>
+        <alias index="25" name="" field="車位移轉總面積(平方公尺)"/>
+        <alias index="26" name="" field="車位總價元"/>
+        <alias index="27" name="" field="備註"/>
+        <alias index="28" name="" field="編號"/>
+        <alias index="29" name="" field="主建物面積"/>
+        <alias index="30" name="" field="附屬建物面積"/>
+        <alias index="31" name="" field="陽台面積"/>
+        <alias index="32" name="" field="電梯"/>
+        <alias index="33" name="" field="address"/>
+        <alias index="34" name="" field="longitude"/>
+        <alias index="35" name="" field="latitude"/>
+        <alias index="36" name="" field="floor"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="field_1"/>
+        <default expression="" applyOnUpdate="0" field="鄉鎮市區"/>
+        <default expression="" applyOnUpdate="0" field="交易標的"/>
+        <default expression="" applyOnUpdate="0" field="土地區段位置建物區段門牌"/>
+        <default expression="" applyOnUpdate="0" field="土地移轉總面積平方公尺"/>
+        <default expression="" applyOnUpdate="0" field="都市土地使用分區"/>
+        <default expression="" applyOnUpdate="0" field="非都市土地使用分區"/>
+        <default expression="" applyOnUpdate="0" field="非都市土地使用編定"/>
+        <default expression="" applyOnUpdate="0" field="交易年月日"/>
+        <default expression="" applyOnUpdate="0" field="交易筆棟數"/>
+        <default expression="" applyOnUpdate="0" field="移轉層次"/>
+        <default expression="" applyOnUpdate="0" field="總樓層數"/>
+        <default expression="" applyOnUpdate="0" field="建物型態"/>
+        <default expression="" applyOnUpdate="0" field="主要用途"/>
+        <default expression="" applyOnUpdate="0" field="主要建材"/>
+        <default expression="" applyOnUpdate="0" field="建築完成年月"/>
+        <default expression="" applyOnUpdate="0" field="建物移轉總面積平方公尺"/>
+        <default expression="" applyOnUpdate="0" field="建物現況格局-房"/>
+        <default expression="" applyOnUpdate="0" field="建物現況格局-廳"/>
+        <default expression="" applyOnUpdate="0" field="建物現況格局-衛"/>
+        <default expression="" applyOnUpdate="0" field="建物現況格局-隔間"/>
+        <default expression="" applyOnUpdate="0" field="有無管理組織"/>
+        <default expression="" applyOnUpdate="0" field="總價元"/>
+        <default expression="" applyOnUpdate="0" field="單價元平方公尺"/>
+        <default expression="" applyOnUpdate="0" field="車位類別"/>
+        <default expression="" applyOnUpdate="0" field="車位移轉總面積(平方公尺)"/>
+        <default expression="" applyOnUpdate="0" field="車位總價元"/>
+        <default expression="" applyOnUpdate="0" field="備註"/>
+        <default expression="" applyOnUpdate="0" field="編號"/>
+        <default expression="" applyOnUpdate="0" field="主建物面積"/>
+        <default expression="" applyOnUpdate="0" field="附屬建物面積"/>
+        <default expression="" applyOnUpdate="0" field="陽台面積"/>
+        <default expression="" applyOnUpdate="0" field="電梯"/>
+        <default expression="" applyOnUpdate="0" field="address"/>
+        <default expression="" applyOnUpdate="0" field="longitude"/>
+        <default expression="" applyOnUpdate="0" field="latitude"/>
+        <default expression="" applyOnUpdate="0" field="floor"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="field_1"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="鄉鎮市區"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="交易標的"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="土地區段位置建物區段門牌"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="土地移轉總面積平方公尺"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="都市土地使用分區"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="非都市土地使用分區"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="非都市土地使用編定"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="交易年月日"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="交易筆棟數"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="移轉層次"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="總樓層數"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="建物型態"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="主要用途"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="主要建材"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="建築完成年月"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="建物移轉總面積平方公尺"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="建物現況格局-房"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="建物現況格局-廳"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="建物現況格局-衛"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="建物現況格局-隔間"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="有無管理組織"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="總價元"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="單價元平方公尺"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="車位類別"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="車位移轉總面積(平方公尺)"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="車位總價元"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="備註"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="編號"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="主建物面積"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="附屬建物面積"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="陽台面積"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="電梯"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="address"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="longitude"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="latitude"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="floor"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="field_1"/>
+        <constraint exp="" desc="" field="鄉鎮市區"/>
+        <constraint exp="" desc="" field="交易標的"/>
+        <constraint exp="" desc="" field="土地區段位置建物區段門牌"/>
+        <constraint exp="" desc="" field="土地移轉總面積平方公尺"/>
+        <constraint exp="" desc="" field="都市土地使用分區"/>
+        <constraint exp="" desc="" field="非都市土地使用分區"/>
+        <constraint exp="" desc="" field="非都市土地使用編定"/>
+        <constraint exp="" desc="" field="交易年月日"/>
+        <constraint exp="" desc="" field="交易筆棟數"/>
+        <constraint exp="" desc="" field="移轉層次"/>
+        <constraint exp="" desc="" field="總樓層數"/>
+        <constraint exp="" desc="" field="建物型態"/>
+        <constraint exp="" desc="" field="主要用途"/>
+        <constraint exp="" desc="" field="主要建材"/>
+        <constraint exp="" desc="" field="建築完成年月"/>
+        <constraint exp="" desc="" field="建物移轉總面積平方公尺"/>
+        <constraint exp="" desc="" field="建物現況格局-房"/>
+        <constraint exp="" desc="" field="建物現況格局-廳"/>
+        <constraint exp="" desc="" field="建物現況格局-衛"/>
+        <constraint exp="" desc="" field="建物現況格局-隔間"/>
+        <constraint exp="" desc="" field="有無管理組織"/>
+        <constraint exp="" desc="" field="總價元"/>
+        <constraint exp="" desc="" field="單價元平方公尺"/>
+        <constraint exp="" desc="" field="車位類別"/>
+        <constraint exp="" desc="" field="車位移轉總面積(平方公尺)"/>
+        <constraint exp="" desc="" field="車位總價元"/>
+        <constraint exp="" desc="" field="備註"/>
+        <constraint exp="" desc="" field="編號"/>
+        <constraint exp="" desc="" field="主建物面積"/>
+        <constraint exp="" desc="" field="附屬建物面積"/>
+        <constraint exp="" desc="" field="陽台面積"/>
+        <constraint exp="" desc="" field="電梯"/>
+        <constraint exp="" desc="" field="address"/>
+        <constraint exp="" desc="" field="longitude"/>
+        <constraint exp="" desc="" field="latitude"/>
+        <constraint exp="" desc="" field="floor"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer minScale="1e+08" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" type="raster" styleCategories="AllStyleCategories" maxScale="0" autoRefreshTime="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-20037508.34278925135731697</xmin>
+        <ymin>-20037508.34278923645615578</ymin>
+        <xmax>20037508.34278923645615578</xmax>
+        <ymax>20037508.34278925135731697</ymax>
+      </extent>
+      <id>桃園市桃園市都市計畫_103_105年_b9586928_b376_4665_a4d8_d7b4cb231d1b</id>
+      <datasource>crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=TOPO01K_H16&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://maps.nlsc.gov.tw/wmtsTOPO01K/</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>桃園市桃園市都市計畫_103_105年</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer alphaBand="-1" type="singlebandcolordata" opacity="1" band="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeOn="0" colorizeStrength="100" colorizeGreen="128" saturation="0" grayscaleMode="0" colorizeRed="255" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="OpenStreetMap_24eefc11_253d_4850_8665_a0ee37df6041"/>
+    <layer id="new_h_lvr_land_a_1e35ce46_0539_471d_8b6a_5bac0ce2d3af"/>
+    <layer id="桃園市桃園市都市計畫_103_105年_b9586928_b376_4665_a4d8_d7b4cb231d1b"/>
+  </layerorder>
+  <properties>
+    <CopyrightLabel>
+      <Enabled type="int">0</Enabled>
+      <Label type="QString"></Label>
+      <MarginH type="int">1</MarginH>
+      <MarginV type="int">1</MarginV>
+    </CopyrightLabel>
+    <Digitizing>
+      <AvoidIntersectionsMode type="int">0</AvoidIntersectionsMode>
+    </Digitizing>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString"></AreaUnits>
+      <DistanceUnits type="QString"></DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>Erik</author>
+    <creation>2020-09-22T23:38:59</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+  </ProjectViewSettings>
+</qgis>

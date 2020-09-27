@@ -1,3 +1,5 @@
+# source:[Geocoding - 批量處理地址轉換經緯度](https://medium.com/花哥的奇幻旅程/geocoding-批量處理地址轉換經緯度-721ab2564c88)
+
 import requests
 import time
 from selenium import webdriver

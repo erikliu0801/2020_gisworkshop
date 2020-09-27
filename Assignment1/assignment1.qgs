@@ -1,0 +1,2902 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.10.9-A Coruña" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer providerKey="ogr" name="Footway" checked="Qt::Checked" source="./VL0231V02|layername=VL0231V02" legend_exp="" id="VL0231V02_f6e84ebe_5284_4bdc_ad2f_657ddcb6ef14" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="ogr" name="ubike_station" checked="Qt::Checked" source="./ubike_station.shp|layername=ubike_station" legend_exp="" id="ubike_station_2a0a4a7b_34c7_4260_bea4_7061d21274c6" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="ogr" name="Bus Line" checked="Qt::Checked" source="./B1H0200002V025|layername=B1H0200002V025" legend_exp="" id="B1H0200002V025_ef899c24_60c6_4dd9_bb5e_4d34d19f3eec" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="ogr" name="Bus Station" checked="Qt::Checked" source="./B1H0010059V037|layername=B1H0010059V037" legend_exp="" id="B1H0010059V037_abcea60a_d2c0_4a88_8b60_e37db2ecd1a6" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="ogr" name="MRT Station" checked="Qt::Checked" source="./A1H0010172V002|layername=A1H0010172V002" legend_exp="" id="A1H0010172V002_0c52dd05_7282_4064_9718_80cafb9c496a" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="wms" name="道路路網" checked="Qt::Checked" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=ROAD&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://wmts.nlsc.gov.tw/wmts" legend_exp="" id="道路路網_bb151b3a_09a6_4c47_924b_2efd45dbbf83" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="wms" name="桃園市桃園市都市計畫_103_105年" checked="Qt::Unchecked" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=TOPO01K_H16&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://maps.nlsc.gov.tw/wmtsTOPO01K/" legend_exp="" id="桃園市桃園市都市計畫_103_105年_9c5cfe2a_32e7_4618_b676_33ba7e35b4f9" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="wms" name="公有土地地籍圖" checked="Qt::Checked" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=LAND_OPENDATA&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://wmts.nlsc.gov.tw/wmts" legend_exp="" id="公有土地地籍圖_257da9a0_ef0b_4dcf_952a_9cb151302ff9" expanded="0">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="wms" name="OpenStreetMap" checked="Qt::Unchecked" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" legend_exp="" id="OpenStreetMap_a6359ba0_0236_412a_bf29_76e31ebd8703" expanded="0">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="wms" name="正射影像圖(通用)" checked="Qt::Unchecked" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/jpeg&amp;layers=PHOTO2&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://wmts.nlsc.gov.tw/wmts" legend_exp="" id="正射影像圖_通用__83e7724f_efd4_4296_8e87_8a207764d59c" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>OpenStreetMap_a6359ba0_0236_412a_bf29_76e31ebd8703</item>
+      <item>公有土地地籍圖_257da9a0_ef0b_4dcf_952a_9cb151302ff9</item>
+      <item>正射影像圖_通用__83e7724f_efd4_4296_8e87_8a207764d59c</item>
+      <item>A1H0010172V002_0c52dd05_7282_4064_9718_80cafb9c496a</item>
+      <item>B1H0010059V037_abcea60a_d2c0_4a88_8b60_e37db2ecd1a6</item>
+      <item>B1H0200002V025_ef899c24_60c6_4dd9_bb5e_4d34d19f3eec</item>
+      <item>VL0231V02_f6e84ebe_5284_4bdc_ad2f_657ddcb6ef14</item>
+      <item>ubike_station_2a0a4a7b_34c7_4260_bea4_7061d21274c6</item>
+      <item>桃園市桃園市都市計畫_103_105年_9c5cfe2a_32e7_4618_b676_33ba7e35b4f9</item>
+      <item>道路路網_bb151b3a_09a6_4c47_924b_2efd45dbbf83</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings unit="1" enabled="0" tolerance="12" mode="2" intersection-snapping="0" type="1">
+    <individual-layer-settings>
+      <layer-setting enabled="0" tolerance="12" id="VL0231V02_f6e84ebe_5284_4bdc_ad2f_657ddcb6ef14" units="1" type="1"/>
+      <layer-setting enabled="0" tolerance="12" id="A1H0010172V002_0c52dd05_7282_4064_9718_80cafb9c496a" units="1" type="1"/>
+      <layer-setting enabled="0" tolerance="12" id="ubike_station_2a0a4a7b_34c7_4260_bea4_7061d21274c6" units="1" type="1"/>
+      <layer-setting enabled="0" tolerance="12" id="B1H0010059V037_abcea60a_d2c0_4a88_8b60_e37db2ecd1a6" units="1" type="1"/>
+      <layer-setting enabled="0" tolerance="12" id="B1H0200002V025_ef899c24_60c6_4dd9_bb5e_4d34d19f3eec" units="1" type="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>121.19747365807599238</xmin>
+      <ymin>24.93564097571965732</ymin>
+      <xmax>121.26112422133176949</xmax>
+      <ymax>24.97377784490611674</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" checked="Qt::Checked" name="Footway" showFeatureCount="0" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="VL0231V02_f6e84ebe_5284_4bdc_ad2f_657ddcb6ef14" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Checked" name="ubike_station" showFeatureCount="0" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="ubike_station_2a0a4a7b_34c7_4260_bea4_7061d21274c6" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Checked" name="Bus Line" showFeatureCount="0" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="B1H0200002V025_ef899c24_60c6_4dd9_bb5e_4d34d19f3eec" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Checked" name="Bus Station" showFeatureCount="0" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="B1H0010059V037_abcea60a_d2c0_4a88_8b60_e37db2ecd1a6" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Checked" name="MRT Station" showFeatureCount="0" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="A1H0010172V002_0c52dd05_7282_4064_9718_80cafb9c496a" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Checked" name="道路路網" showFeatureCount="0" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="道路路網_bb151b3a_09a6_4c47_924b_2efd45dbbf83" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Unchecked" name="桃園市桃園市都市計畫_103_105年" showFeatureCount="0" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="桃園市桃園市都市計畫_103_105年_9c5cfe2a_32e7_4618_b676_33ba7e35b4f9" isInOverview="0" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Checked" name="公有土地地籍圖" showFeatureCount="0" open="false">
+      <filegroup hidden="false" open="false">
+        <legendlayerfile layerid="公有土地地籍圖_257da9a0_ef0b_4dcf_952a_9cb151302ff9" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Unchecked" name="OpenStreetMap" showFeatureCount="0" open="false">
+      <filegroup hidden="false" open="false">
+        <legendlayerfile layerid="OpenStreetMap_a6359ba0_0236_412a_bf29_76e31ebd8703" isInOverview="0" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Unchecked" name="正射影像圖(通用)" showFeatureCount="0" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="正射影像圖_通用__83e7724f_efd4_4296_8e87_8a207764d59c" isInOverview="0" visible="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer minScale="1e+08" geometry="Point" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" maxScale="0" wkbType="Point" type="vector" simplifyLocal="1" readOnly="0" simplifyAlgorithm="0" simplifyMaxScale="1" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" simplifyDrawingTol="1">
+      <extent>
+        <xmin>121.20300000000008822</xmin>
+        <ymin>24.96700000000004138</ymin>
+        <xmax>121.51400000000001</xmax>
+        <ymax>25.08600000000006958</ymax>
+      </extent>
+      <id>A1H0010172V002_0c52dd05_7282_4064_9718_80cafb9c496a</id>
+      <datasource>./A1H0010172V002|layername=A1H0010172V002</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>MRT Station</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" name="0" clip_to_extent="1" type="marker" force_rhr="0">
+            <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="145,82,45,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;StationUID&quot;"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="StationUID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="StationID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Zh_tw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="En">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PositionLa">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PositionLo">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="StationAdd">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BikeAllowO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SrcUpdateT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UpdateTime">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VersionID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UniqueID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="StationUID" index="0" name=""/>
+        <alias field="StationID" index="1" name=""/>
+        <alias field="Zh_tw" index="2" name=""/>
+        <alias field="En" index="3" name=""/>
+        <alias field="PositionLa" index="4" name=""/>
+        <alias field="PositionLo" index="5" name=""/>
+        <alias field="StationAdd" index="6" name=""/>
+        <alias field="BikeAllowO" index="7" name=""/>
+        <alias field="SrcUpdateT" index="8" name=""/>
+        <alias field="UpdateTime" index="9" name=""/>
+        <alias field="VersionID" index="10" name=""/>
+        <alias field="UniqueID" index="11" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="StationUID" applyOnUpdate="0" expression=""/>
+        <default field="StationID" applyOnUpdate="0" expression=""/>
+        <default field="Zh_tw" applyOnUpdate="0" expression=""/>
+        <default field="En" applyOnUpdate="0" expression=""/>
+        <default field="PositionLa" applyOnUpdate="0" expression=""/>
+        <default field="PositionLo" applyOnUpdate="0" expression=""/>
+        <default field="StationAdd" applyOnUpdate="0" expression=""/>
+        <default field="BikeAllowO" applyOnUpdate="0" expression=""/>
+        <default field="SrcUpdateT" applyOnUpdate="0" expression=""/>
+        <default field="UpdateTime" applyOnUpdate="0" expression=""/>
+        <default field="VersionID" applyOnUpdate="0" expression=""/>
+        <default field="UniqueID" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="StationUID" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="StationID" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Zh_tw" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="En" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="PositionLa" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="PositionLo" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="StationAdd" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="BikeAllowO" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SrcUpdateT" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="UpdateTime" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="VersionID" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="UniqueID" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="StationUID" desc="" exp=""/>
+        <constraint field="StationID" desc="" exp=""/>
+        <constraint field="Zh_tw" desc="" exp=""/>
+        <constraint field="En" desc="" exp=""/>
+        <constraint field="PositionLa" desc="" exp=""/>
+        <constraint field="PositionLo" desc="" exp=""/>
+        <constraint field="StationAdd" desc="" exp=""/>
+        <constraint field="BikeAllowO" desc="" exp=""/>
+        <constraint field="SrcUpdateT" desc="" exp=""/>
+        <constraint field="UpdateTime" desc="" exp=""/>
+        <constraint field="VersionID" desc="" exp=""/>
+        <constraint field="UniqueID" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column name="StationUID" hidden="0" width="-1" type="field"/>
+          <column name="StationID" hidden="0" width="-1" type="field"/>
+          <column name="Zh_tw" hidden="0" width="-1" type="field"/>
+          <column name="En" hidden="0" width="-1" type="field"/>
+          <column name="PositionLa" hidden="0" width="-1" type="field"/>
+          <column name="PositionLo" hidden="0" width="-1" type="field"/>
+          <column name="StationAdd" hidden="0" width="321" type="field"/>
+          <column name="BikeAllowO" hidden="0" width="-1" type="field"/>
+          <column name="SrcUpdateT" hidden="0" width="-1" type="field"/>
+          <column name="UpdateTime" hidden="0" width="-1" type="field"/>
+          <column name="VersionID" hidden="0" width="-1" type="field"/>
+          <column name="UniqueID" hidden="0" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"StationUID"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer minScale="1e+08" geometry="Point" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" maxScale="0" wkbType="Point" type="vector" simplifyLocal="1" readOnly="0" simplifyAlgorithm="0" simplifyMaxScale="1" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" simplifyDrawingTol="1">
+      <extent>
+        <xmin>120.98958000000004631</xmin>
+        <ymin>24.63769900000005464</ymin>
+        <xmax>121.44986000000005788</xmax>
+        <ymax>25.12029000000006818</ymax>
+      </extent>
+      <id>B1H0010059V037_abcea60a_d2c0_4a88_8b60_e37db2ecd1a6</id>
+      <datasource>./B1H0010059V037|layername=B1H0010059V037</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Bus Station</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" name="0" clip_to_extent="1" type="marker" force_rhr="0">
+            <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="196,60,57,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;StopName&quot;"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="StopUID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="StopID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="StopName">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="StopNameEn">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="StopAddres">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="StationID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="StopDescri">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Updatetime">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ProvCode">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Lon">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Lat">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UniqueID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="StopUID" index="0" name=""/>
+        <alias field="StopID" index="1" name=""/>
+        <alias field="StopName" index="2" name=""/>
+        <alias field="StopNameEn" index="3" name=""/>
+        <alias field="StopAddres" index="4" name=""/>
+        <alias field="StationID" index="5" name=""/>
+        <alias field="StopDescri" index="6" name=""/>
+        <alias field="Updatetime" index="7" name=""/>
+        <alias field="ProvCode" index="8" name=""/>
+        <alias field="Lon" index="9" name=""/>
+        <alias field="Lat" index="10" name=""/>
+        <alias field="UniqueID" index="11" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="StopUID" applyOnUpdate="0" expression=""/>
+        <default field="StopID" applyOnUpdate="0" expression=""/>
+        <default field="StopName" applyOnUpdate="0" expression=""/>
+        <default field="StopNameEn" applyOnUpdate="0" expression=""/>
+        <default field="StopAddres" applyOnUpdate="0" expression=""/>
+        <default field="StationID" applyOnUpdate="0" expression=""/>
+        <default field="StopDescri" applyOnUpdate="0" expression=""/>
+        <default field="Updatetime" applyOnUpdate="0" expression=""/>
+        <default field="ProvCode" applyOnUpdate="0" expression=""/>
+        <default field="Lon" applyOnUpdate="0" expression=""/>
+        <default field="Lat" applyOnUpdate="0" expression=""/>
+        <default field="UniqueID" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="StopUID" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="StopID" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="StopName" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="StopNameEn" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="StopAddres" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="StationID" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="StopDescri" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Updatetime" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="ProvCode" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Lon" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Lat" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="UniqueID" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="StopUID" desc="" exp=""/>
+        <constraint field="StopID" desc="" exp=""/>
+        <constraint field="StopName" desc="" exp=""/>
+        <constraint field="StopNameEn" desc="" exp=""/>
+        <constraint field="StopAddres" desc="" exp=""/>
+        <constraint field="StationID" desc="" exp=""/>
+        <constraint field="StopDescri" desc="" exp=""/>
+        <constraint field="Updatetime" desc="" exp=""/>
+        <constraint field="ProvCode" desc="" exp=""/>
+        <constraint field="Lon" desc="" exp=""/>
+        <constraint field="Lat" desc="" exp=""/>
+        <constraint field="UniqueID" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column name="StopUID" hidden="0" width="-1" type="field"/>
+          <column name="StopID" hidden="0" width="-1" type="field"/>
+          <column name="StopName" hidden="0" width="-1" type="field"/>
+          <column name="StopNameEn" hidden="0" width="-1" type="field"/>
+          <column name="StopAddres" hidden="0" width="-1" type="field"/>
+          <column name="StationID" hidden="0" width="-1" type="field"/>
+          <column name="StopDescri" hidden="0" width="-1" type="field"/>
+          <column name="Updatetime" hidden="0" width="-1" type="field"/>
+          <column name="ProvCode" hidden="0" width="-1" type="field"/>
+          <column name="Lon" hidden="0" width="-1" type="field"/>
+          <column name="Lat" hidden="0" width="-1" type="field"/>
+          <column name="UniqueID" hidden="0" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"StopName"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer minScale="1e+08" geometry="Line" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" maxScale="0" wkbType="MultiLineString" type="vector" simplifyLocal="1" readOnly="0" simplifyAlgorithm="0" simplifyMaxScale="1" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" simplifyDrawingTol="1">
+      <extent>
+        <xmin>120.98948500000005879</xmin>
+        <ymin>24.67806200000006811</ymin>
+        <xmax>121.41793700000005174</xmax>
+        <ymax>25.11769900000007283</ymax>
+      </extent>
+      <id>B1H0200002V025_ef899c24_60c6_4dd9_bb5e_4d34d19f3eec</id>
+      <datasource>./B1H0200002V025|layername=B1H0200002V025</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Bus Line</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" name="0" clip_to_extent="1" type="line" force_rhr="0">
+            <layer class="SimpleLine" enabled="1" pass="0" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="225,89,137,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="ring_filter" v="0"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;RouteNameZ&quot;"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="RouteUID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RouteID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Direction">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OperatorID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AuthorityI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ProviderID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BusRouteTy">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RouteNameZ">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RouteNameE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DepartureS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Departur_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Destinatio">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Destinat_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TicketPric">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TicketPr_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FareBuffer">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FareBuff_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RouteMapIm">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Updatetime">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UniqueID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="RouteUID" index="0" name=""/>
+        <alias field="RouteID" index="1" name=""/>
+        <alias field="Direction" index="2" name=""/>
+        <alias field="OperatorID" index="3" name=""/>
+        <alias field="AuthorityI" index="4" name=""/>
+        <alias field="ProviderID" index="5" name=""/>
+        <alias field="BusRouteTy" index="6" name=""/>
+        <alias field="RouteNameZ" index="7" name=""/>
+        <alias field="RouteNameE" index="8" name=""/>
+        <alias field="DepartureS" index="9" name=""/>
+        <alias field="Departur_1" index="10" name=""/>
+        <alias field="Destinatio" index="11" name=""/>
+        <alias field="Destinat_1" index="12" name=""/>
+        <alias field="TicketPric" index="13" name=""/>
+        <alias field="TicketPr_1" index="14" name=""/>
+        <alias field="FareBuffer" index="15" name=""/>
+        <alias field="FareBuff_1" index="16" name=""/>
+        <alias field="RouteMapIm" index="17" name=""/>
+        <alias field="Updatetime" index="18" name=""/>
+        <alias field="UniqueID" index="19" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="RouteUID" applyOnUpdate="0" expression=""/>
+        <default field="RouteID" applyOnUpdate="0" expression=""/>
+        <default field="Direction" applyOnUpdate="0" expression=""/>
+        <default field="OperatorID" applyOnUpdate="0" expression=""/>
+        <default field="AuthorityI" applyOnUpdate="0" expression=""/>
+        <default field="ProviderID" applyOnUpdate="0" expression=""/>
+        <default field="BusRouteTy" applyOnUpdate="0" expression=""/>
+        <default field="RouteNameZ" applyOnUpdate="0" expression=""/>
+        <default field="RouteNameE" applyOnUpdate="0" expression=""/>
+        <default field="DepartureS" applyOnUpdate="0" expression=""/>
+        <default field="Departur_1" applyOnUpdate="0" expression=""/>
+        <default field="Destinatio" applyOnUpdate="0" expression=""/>
+        <default field="Destinat_1" applyOnUpdate="0" expression=""/>
+        <default field="TicketPric" applyOnUpdate="0" expression=""/>
+        <default field="TicketPr_1" applyOnUpdate="0" expression=""/>
+        <default field="FareBuffer" applyOnUpdate="0" expression=""/>
+        <default field="FareBuff_1" applyOnUpdate="0" expression=""/>
+        <default field="RouteMapIm" applyOnUpdate="0" expression=""/>
+        <default field="Updatetime" applyOnUpdate="0" expression=""/>
+        <default field="UniqueID" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="RouteUID" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="RouteID" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Direction" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="OperatorID" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="AuthorityI" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="ProviderID" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="BusRouteTy" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="RouteNameZ" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="RouteNameE" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="DepartureS" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Departur_1" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Destinatio" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Destinat_1" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="TicketPric" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="TicketPr_1" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="FareBuffer" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="FareBuff_1" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="RouteMapIm" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Updatetime" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="UniqueID" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="RouteUID" desc="" exp=""/>
+        <constraint field="RouteID" desc="" exp=""/>
+        <constraint field="Direction" desc="" exp=""/>
+        <constraint field="OperatorID" desc="" exp=""/>
+        <constraint field="AuthorityI" desc="" exp=""/>
+        <constraint field="ProviderID" desc="" exp=""/>
+        <constraint field="BusRouteTy" desc="" exp=""/>
+        <constraint field="RouteNameZ" desc="" exp=""/>
+        <constraint field="RouteNameE" desc="" exp=""/>
+        <constraint field="DepartureS" desc="" exp=""/>
+        <constraint field="Departur_1" desc="" exp=""/>
+        <constraint field="Destinatio" desc="" exp=""/>
+        <constraint field="Destinat_1" desc="" exp=""/>
+        <constraint field="TicketPric" desc="" exp=""/>
+        <constraint field="TicketPr_1" desc="" exp=""/>
+        <constraint field="FareBuffer" desc="" exp=""/>
+        <constraint field="FareBuff_1" desc="" exp=""/>
+        <constraint field="RouteMapIm" desc="" exp=""/>
+        <constraint field="Updatetime" desc="" exp=""/>
+        <constraint field="UniqueID" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column name="RouteUID" hidden="0" width="-1" type="field"/>
+          <column name="RouteID" hidden="0" width="-1" type="field"/>
+          <column name="Direction" hidden="0" width="-1" type="field"/>
+          <column name="OperatorID" hidden="0" width="-1" type="field"/>
+          <column name="AuthorityI" hidden="0" width="-1" type="field"/>
+          <column name="ProviderID" hidden="0" width="-1" type="field"/>
+          <column name="BusRouteTy" hidden="0" width="-1" type="field"/>
+          <column name="RouteNameZ" hidden="0" width="-1" type="field"/>
+          <column name="RouteNameE" hidden="0" width="-1" type="field"/>
+          <column name="DepartureS" hidden="0" width="-1" type="field"/>
+          <column name="Departur_1" hidden="0" width="-1" type="field"/>
+          <column name="Destinatio" hidden="0" width="-1" type="field"/>
+          <column name="Destinat_1" hidden="0" width="-1" type="field"/>
+          <column name="TicketPric" hidden="0" width="-1" type="field"/>
+          <column name="TicketPr_1" hidden="0" width="-1" type="field"/>
+          <column name="FareBuffer" hidden="0" width="-1" type="field"/>
+          <column name="FareBuff_1" hidden="0" width="-1" type="field"/>
+          <column name="RouteMapIm" hidden="0" width="-1" type="field"/>
+          <column name="Updatetime" hidden="0" width="-1" type="field"/>
+          <column name="UniqueID" hidden="0" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"RouteNameZ"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" type="raster">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>OpenStreetMap_a6359ba0_0236_412a_bf29_76e31ebd8703</id>
+      <datasource>crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>OpenStreetMap</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer alphaBand="-1" opacity="1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeGreen="128" grayscaleMode="0" colorizeOn="0" saturation="0" colorizeRed="255" colorizeStrength="100" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minScale="1e+08" geometry="Polygon" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" maxScale="0" wkbType="MultiPolygon" type="vector" simplifyLocal="1" readOnly="0" simplifyAlgorithm="0" simplifyMaxScale="1" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" simplifyDrawingTol="1">
+      <extent>
+        <xmin>121.07490629638276403</xmin>
+        <ymin>24.81781214269141245</ymin>
+        <xmax>121.41057999929606126</xmax>
+        <ymax>25.11781488081195235</ymax>
+      </extent>
+      <id>VL0231V02_f6e84ebe_5284_4bdc_ad2f_657ddcb6ef14</id>
+      <datasource>./VL0231V02|layername=VL0231V02</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Footway</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="0" crs="" minz="0" maxy="0" maxz="0" dimensions="2" minx="0" miny="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="Big5">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" name="0" clip_to_extent="1" type="fill" force_rhr="0">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="152,125,183,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;NAME&quot;"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory diagramOrientation="Up" penColor="#000000" penWidth="0" minScaleDenominator="0" scaleDependency="Area" penAlpha="255" minimumSize="0" sizeType="MM" enabled="0" labelPlacementMethod="XHeight" backgroundColor="#ffffff" scaleBasedVisibility="0" barWidth="5" maxScaleDenominator="1e+08" height="15" opacity="1" backgroundAlpha="255" width="15" rotationOffset="270" lineSizeScale="3x:0,0,0,0,0,0" sizeScale="3x:0,0,0,0,0,0" lineSizeType="MM">
+          <fontProperties description="Cantarell,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" label="" color="#000000"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" linePlacementFlags="18" obstacle="0" priority="0" dist="0" zIndex="0" placement="1">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option name="QgsGeometryGapCheck" type="Map">
+            <Option name="allowedGapsBuffer" value="0" type="double"/>
+            <Option name="allowedGapsEnabled" value="false" type="bool"/>
+            <Option name="allowedGapsLayer" value="" type="QString"/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="OBJECTID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PSTART">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PEND">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_DIRECT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LENGTH">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WIDTH_U">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WIDTH_C">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_LENG">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_WTH">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SWD_WTH">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SWT_WTH">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SWW_WTH">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_PAVE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SHAPE_AR">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_AREA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_BK_L">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_BK_B">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_BK_E">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_BK_P">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_BK_O">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_HOLE">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_TREE">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_RAMP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_CARRAMP">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BLOK_NAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ARCADE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AC_EVEN">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="U_OFFICE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="U_WIDTH">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BC_PLACE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BC_WIDTH">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MEMO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_BRKRAT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_PAVE_C">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_PASS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SW_USES">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTY_NA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VILL_NAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="KEY_DATE">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MOD_DATE">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MOD_Accoun">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_STAr">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_STLe">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="OBJECTID" index="0" name=""/>
+        <alias field="ID" index="1" name=""/>
+        <alias field="NAME" index="2" name=""/>
+        <alias field="PSTART" index="3" name=""/>
+        <alias field="PEND" index="4" name=""/>
+        <alias field="SW_DIRECT" index="5" name=""/>
+        <alias field="LENGTH" index="6" name=""/>
+        <alias field="WIDTH_U" index="7" name=""/>
+        <alias field="WIDTH_C" index="8" name=""/>
+        <alias field="SW_LENG" index="9" name=""/>
+        <alias field="SW_WTH" index="10" name=""/>
+        <alias field="SWD_WTH" index="11" name=""/>
+        <alias field="SWT_WTH" index="12" name=""/>
+        <alias field="SWW_WTH" index="13" name=""/>
+        <alias field="SW_PAVE" index="14" name=""/>
+        <alias field="SHAPE_AR" index="15" name=""/>
+        <alias field="SW_AREA" index="16" name=""/>
+        <alias field="SW_BK_L" index="17" name=""/>
+        <alias field="SW_BK_B" index="18" name=""/>
+        <alias field="SW_BK_E" index="19" name=""/>
+        <alias field="SW_BK_P" index="20" name=""/>
+        <alias field="SW_BK_O" index="21" name=""/>
+        <alias field="SW_HOLE" index="22" name=""/>
+        <alias field="SW_TREE" index="23" name=""/>
+        <alias field="SW_RAMP" index="24" name=""/>
+        <alias field="SW_CARRAMP" index="25" name=""/>
+        <alias field="BLOK_NAME" index="26" name=""/>
+        <alias field="ARCADE" index="27" name=""/>
+        <alias field="AC_EVEN" index="28" name=""/>
+        <alias field="U_OFFICE" index="29" name=""/>
+        <alias field="U_WIDTH" index="30" name=""/>
+        <alias field="BC_PLACE" index="31" name=""/>
+        <alias field="BC_WIDTH" index="32" name=""/>
+        <alias field="MEMO" index="33" name=""/>
+        <alias field="SW_BRKRAT" index="34" name=""/>
+        <alias field="SW_PAVE_C" index="35" name=""/>
+        <alias field="SW_PASS" index="36" name=""/>
+        <alias field="SW_USES" index="37" name=""/>
+        <alias field="COUNTY_NA" index="38" name=""/>
+        <alias field="VILL_NAME" index="39" name=""/>
+        <alias field="KEY_DATE" index="40" name=""/>
+        <alias field="MOD_DATE" index="41" name=""/>
+        <alias field="MOD_Accoun" index="42" name=""/>
+        <alias field="Shape_STAr" index="43" name=""/>
+        <alias field="Shape_STLe" index="44" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="OBJECTID" applyOnUpdate="0" expression=""/>
+        <default field="ID" applyOnUpdate="0" expression=""/>
+        <default field="NAME" applyOnUpdate="0" expression=""/>
+        <default field="PSTART" applyOnUpdate="0" expression=""/>
+        <default field="PEND" applyOnUpdate="0" expression=""/>
+        <default field="SW_DIRECT" applyOnUpdate="0" expression=""/>
+        <default field="LENGTH" applyOnUpdate="0" expression=""/>
+        <default field="WIDTH_U" applyOnUpdate="0" expression=""/>
+        <default field="WIDTH_C" applyOnUpdate="0" expression=""/>
+        <default field="SW_LENG" applyOnUpdate="0" expression=""/>
+        <default field="SW_WTH" applyOnUpdate="0" expression=""/>
+        <default field="SWD_WTH" applyOnUpdate="0" expression=""/>
+        <default field="SWT_WTH" applyOnUpdate="0" expression=""/>
+        <default field="SWW_WTH" applyOnUpdate="0" expression=""/>
+        <default field="SW_PAVE" applyOnUpdate="0" expression=""/>
+        <default field="SHAPE_AR" applyOnUpdate="0" expression=""/>
+        <default field="SW_AREA" applyOnUpdate="0" expression=""/>
+        <default field="SW_BK_L" applyOnUpdate="0" expression=""/>
+        <default field="SW_BK_B" applyOnUpdate="0" expression=""/>
+        <default field="SW_BK_E" applyOnUpdate="0" expression=""/>
+        <default field="SW_BK_P" applyOnUpdate="0" expression=""/>
+        <default field="SW_BK_O" applyOnUpdate="0" expression=""/>
+        <default field="SW_HOLE" applyOnUpdate="0" expression=""/>
+        <default field="SW_TREE" applyOnUpdate="0" expression=""/>
+        <default field="SW_RAMP" applyOnUpdate="0" expression=""/>
+        <default field="SW_CARRAMP" applyOnUpdate="0" expression=""/>
+        <default field="BLOK_NAME" applyOnUpdate="0" expression=""/>
+        <default field="ARCADE" applyOnUpdate="0" expression=""/>
+        <default field="AC_EVEN" applyOnUpdate="0" expression=""/>
+        <default field="U_OFFICE" applyOnUpdate="0" expression=""/>
+        <default field="U_WIDTH" applyOnUpdate="0" expression=""/>
+        <default field="BC_PLACE" applyOnUpdate="0" expression=""/>
+        <default field="BC_WIDTH" applyOnUpdate="0" expression=""/>
+        <default field="MEMO" applyOnUpdate="0" expression=""/>
+        <default field="SW_BRKRAT" applyOnUpdate="0" expression=""/>
+        <default field="SW_PAVE_C" applyOnUpdate="0" expression=""/>
+        <default field="SW_PASS" applyOnUpdate="0" expression=""/>
+        <default field="SW_USES" applyOnUpdate="0" expression=""/>
+        <default field="COUNTY_NA" applyOnUpdate="0" expression=""/>
+        <default field="VILL_NAME" applyOnUpdate="0" expression=""/>
+        <default field="KEY_DATE" applyOnUpdate="0" expression=""/>
+        <default field="MOD_DATE" applyOnUpdate="0" expression=""/>
+        <default field="MOD_Accoun" applyOnUpdate="0" expression=""/>
+        <default field="Shape_STAr" applyOnUpdate="0" expression=""/>
+        <default field="Shape_STLe" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="OBJECTID" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="ID" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="NAME" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="PSTART" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="PEND" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_DIRECT" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="LENGTH" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="WIDTH_U" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="WIDTH_C" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_LENG" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_WTH" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SWD_WTH" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SWT_WTH" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SWW_WTH" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_PAVE" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SHAPE_AR" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_AREA" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_BK_L" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_BK_B" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_BK_E" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_BK_P" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_BK_O" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_HOLE" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_TREE" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_RAMP" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_CARRAMP" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="BLOK_NAME" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="ARCADE" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="AC_EVEN" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="U_OFFICE" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="U_WIDTH" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="BC_PLACE" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="BC_WIDTH" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="MEMO" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_BRKRAT" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_PAVE_C" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_PASS" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SW_USES" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="COUNTY_NA" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="VILL_NAME" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="KEY_DATE" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="MOD_DATE" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="MOD_Accoun" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Shape_STAr" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Shape_STLe" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="OBJECTID" desc="" exp=""/>
+        <constraint field="ID" desc="" exp=""/>
+        <constraint field="NAME" desc="" exp=""/>
+        <constraint field="PSTART" desc="" exp=""/>
+        <constraint field="PEND" desc="" exp=""/>
+        <constraint field="SW_DIRECT" desc="" exp=""/>
+        <constraint field="LENGTH" desc="" exp=""/>
+        <constraint field="WIDTH_U" desc="" exp=""/>
+        <constraint field="WIDTH_C" desc="" exp=""/>
+        <constraint field="SW_LENG" desc="" exp=""/>
+        <constraint field="SW_WTH" desc="" exp=""/>
+        <constraint field="SWD_WTH" desc="" exp=""/>
+        <constraint field="SWT_WTH" desc="" exp=""/>
+        <constraint field="SWW_WTH" desc="" exp=""/>
+        <constraint field="SW_PAVE" desc="" exp=""/>
+        <constraint field="SHAPE_AR" desc="" exp=""/>
+        <constraint field="SW_AREA" desc="" exp=""/>
+        <constraint field="SW_BK_L" desc="" exp=""/>
+        <constraint field="SW_BK_B" desc="" exp=""/>
+        <constraint field="SW_BK_E" desc="" exp=""/>
+        <constraint field="SW_BK_P" desc="" exp=""/>
+        <constraint field="SW_BK_O" desc="" exp=""/>
+        <constraint field="SW_HOLE" desc="" exp=""/>
+        <constraint field="SW_TREE" desc="" exp=""/>
+        <constraint field="SW_RAMP" desc="" exp=""/>
+        <constraint field="SW_CARRAMP" desc="" exp=""/>
+        <constraint field="BLOK_NAME" desc="" exp=""/>
+        <constraint field="ARCADE" desc="" exp=""/>
+        <constraint field="AC_EVEN" desc="" exp=""/>
+        <constraint field="U_OFFICE" desc="" exp=""/>
+        <constraint field="U_WIDTH" desc="" exp=""/>
+        <constraint field="BC_PLACE" desc="" exp=""/>
+        <constraint field="BC_WIDTH" desc="" exp=""/>
+        <constraint field="MEMO" desc="" exp=""/>
+        <constraint field="SW_BRKRAT" desc="" exp=""/>
+        <constraint field="SW_PAVE_C" desc="" exp=""/>
+        <constraint field="SW_PASS" desc="" exp=""/>
+        <constraint field="SW_USES" desc="" exp=""/>
+        <constraint field="COUNTY_NA" desc="" exp=""/>
+        <constraint field="VILL_NAME" desc="" exp=""/>
+        <constraint field="KEY_DATE" desc="" exp=""/>
+        <constraint field="MOD_DATE" desc="" exp=""/>
+        <constraint field="MOD_Accoun" desc="" exp=""/>
+        <constraint field="Shape_STAr" desc="" exp=""/>
+        <constraint field="Shape_STLe" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column name="OBJECTID" hidden="0" width="-1" type="field"/>
+          <column name="ID" hidden="0" width="-1" type="field"/>
+          <column name="NAME" hidden="0" width="-1" type="field"/>
+          <column name="PSTART" hidden="0" width="-1" type="field"/>
+          <column name="PEND" hidden="0" width="-1" type="field"/>
+          <column name="SW_DIRECT" hidden="0" width="-1" type="field"/>
+          <column name="LENGTH" hidden="0" width="-1" type="field"/>
+          <column name="WIDTH_U" hidden="0" width="-1" type="field"/>
+          <column name="WIDTH_C" hidden="0" width="-1" type="field"/>
+          <column name="SW_LENG" hidden="0" width="-1" type="field"/>
+          <column name="SW_WTH" hidden="0" width="-1" type="field"/>
+          <column name="SWD_WTH" hidden="0" width="-1" type="field"/>
+          <column name="SWT_WTH" hidden="0" width="-1" type="field"/>
+          <column name="SWW_WTH" hidden="0" width="-1" type="field"/>
+          <column name="SW_PAVE" hidden="0" width="-1" type="field"/>
+          <column name="SHAPE_AR" hidden="0" width="-1" type="field"/>
+          <column name="SW_AREA" hidden="0" width="-1" type="field"/>
+          <column name="SW_BK_L" hidden="0" width="-1" type="field"/>
+          <column name="SW_BK_B" hidden="0" width="-1" type="field"/>
+          <column name="SW_BK_E" hidden="0" width="-1" type="field"/>
+          <column name="SW_BK_P" hidden="0" width="-1" type="field"/>
+          <column name="SW_BK_O" hidden="0" width="-1" type="field"/>
+          <column name="SW_HOLE" hidden="0" width="-1" type="field"/>
+          <column name="SW_TREE" hidden="0" width="-1" type="field"/>
+          <column name="SW_RAMP" hidden="0" width="-1" type="field"/>
+          <column name="SW_CARRAMP" hidden="0" width="-1" type="field"/>
+          <column name="BLOK_NAME" hidden="0" width="-1" type="field"/>
+          <column name="ARCADE" hidden="0" width="-1" type="field"/>
+          <column name="AC_EVEN" hidden="0" width="-1" type="field"/>
+          <column name="U_OFFICE" hidden="0" width="-1" type="field"/>
+          <column name="U_WIDTH" hidden="0" width="-1" type="field"/>
+          <column name="BC_PLACE" hidden="0" width="-1" type="field"/>
+          <column name="BC_WIDTH" hidden="0" width="-1" type="field"/>
+          <column name="MEMO" hidden="0" width="-1" type="field"/>
+          <column name="SW_BRKRAT" hidden="0" width="-1" type="field"/>
+          <column name="SW_PAVE_C" hidden="0" width="-1" type="field"/>
+          <column name="SW_PASS" hidden="0" width="-1" type="field"/>
+          <column name="SW_USES" hidden="0" width="-1" type="field"/>
+          <column name="COUNTY_NA" hidden="0" width="-1" type="field"/>
+          <column name="VILL_NAME" hidden="0" width="-1" type="field"/>
+          <column name="KEY_DATE" hidden="0" width="-1" type="field"/>
+          <column name="MOD_DATE" hidden="0" width="-1" type="field"/>
+          <column name="MOD_Accoun" hidden="0" width="-1" type="field"/>
+          <column name="Shape_STAr" hidden="0" width="-1" type="field"/>
+          <column name="Shape_STLe" hidden="0" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="AC_EVEN"/>
+        <field editable="1" name="ARCADE"/>
+        <field editable="1" name="BC_PLACE"/>
+        <field editable="1" name="BC_WIDTH"/>
+        <field editable="1" name="BLOK_NAME"/>
+        <field editable="1" name="COUNTY_NA"/>
+        <field editable="1" name="ID"/>
+        <field editable="1" name="KEY_DATE"/>
+        <field editable="1" name="LENGTH"/>
+        <field editable="1" name="MEMO"/>
+        <field editable="1" name="MOD_Accoun"/>
+        <field editable="1" name="MOD_DATE"/>
+        <field editable="1" name="NAME"/>
+        <field editable="1" name="OBJECTID"/>
+        <field editable="1" name="PEND"/>
+        <field editable="1" name="PSTART"/>
+        <field editable="1" name="SHAPE_AR"/>
+        <field editable="1" name="SWD_WTH"/>
+        <field editable="1" name="SWT_WTH"/>
+        <field editable="1" name="SWW_WTH"/>
+        <field editable="1" name="SW_AREA"/>
+        <field editable="1" name="SW_BK_B"/>
+        <field editable="1" name="SW_BK_E"/>
+        <field editable="1" name="SW_BK_L"/>
+        <field editable="1" name="SW_BK_O"/>
+        <field editable="1" name="SW_BK_P"/>
+        <field editable="1" name="SW_BRKRAT"/>
+        <field editable="1" name="SW_CARRAMP"/>
+        <field editable="1" name="SW_DIRECT"/>
+        <field editable="1" name="SW_HOLE"/>
+        <field editable="1" name="SW_LENG"/>
+        <field editable="1" name="SW_PASS"/>
+        <field editable="1" name="SW_PAVE"/>
+        <field editable="1" name="SW_PAVE_C"/>
+        <field editable="1" name="SW_RAMP"/>
+        <field editable="1" name="SW_TREE"/>
+        <field editable="1" name="SW_USES"/>
+        <field editable="1" name="SW_WTH"/>
+        <field editable="1" name="Shape_STAr"/>
+        <field editable="1" name="Shape_STLe"/>
+        <field editable="1" name="U_OFFICE"/>
+        <field editable="1" name="U_WIDTH"/>
+        <field editable="1" name="VILL_NAME"/>
+        <field editable="1" name="WIDTH_C"/>
+        <field editable="1" name="WIDTH_U"/>
+      </editable>
+      <labelOnTop>
+        <field name="AC_EVEN" labelOnTop="0"/>
+        <field name="ARCADE" labelOnTop="0"/>
+        <field name="BC_PLACE" labelOnTop="0"/>
+        <field name="BC_WIDTH" labelOnTop="0"/>
+        <field name="BLOK_NAME" labelOnTop="0"/>
+        <field name="COUNTY_NA" labelOnTop="0"/>
+        <field name="ID" labelOnTop="0"/>
+        <field name="KEY_DATE" labelOnTop="0"/>
+        <field name="LENGTH" labelOnTop="0"/>
+        <field name="MEMO" labelOnTop="0"/>
+        <field name="MOD_Accoun" labelOnTop="0"/>
+        <field name="MOD_DATE" labelOnTop="0"/>
+        <field name="NAME" labelOnTop="0"/>
+        <field name="OBJECTID" labelOnTop="0"/>
+        <field name="PEND" labelOnTop="0"/>
+        <field name="PSTART" labelOnTop="0"/>
+        <field name="SHAPE_AR" labelOnTop="0"/>
+        <field name="SWD_WTH" labelOnTop="0"/>
+        <field name="SWT_WTH" labelOnTop="0"/>
+        <field name="SWW_WTH" labelOnTop="0"/>
+        <field name="SW_AREA" labelOnTop="0"/>
+        <field name="SW_BK_B" labelOnTop="0"/>
+        <field name="SW_BK_E" labelOnTop="0"/>
+        <field name="SW_BK_L" labelOnTop="0"/>
+        <field name="SW_BK_O" labelOnTop="0"/>
+        <field name="SW_BK_P" labelOnTop="0"/>
+        <field name="SW_BRKRAT" labelOnTop="0"/>
+        <field name="SW_CARRAMP" labelOnTop="0"/>
+        <field name="SW_DIRECT" labelOnTop="0"/>
+        <field name="SW_HOLE" labelOnTop="0"/>
+        <field name="SW_LENG" labelOnTop="0"/>
+        <field name="SW_PASS" labelOnTop="0"/>
+        <field name="SW_PAVE" labelOnTop="0"/>
+        <field name="SW_PAVE_C" labelOnTop="0"/>
+        <field name="SW_RAMP" labelOnTop="0"/>
+        <field name="SW_TREE" labelOnTop="0"/>
+        <field name="SW_USES" labelOnTop="0"/>
+        <field name="SW_WTH" labelOnTop="0"/>
+        <field name="Shape_STAr" labelOnTop="0"/>
+        <field name="Shape_STLe" labelOnTop="0"/>
+        <field name="U_OFFICE" labelOnTop="0"/>
+        <field name="U_WIDTH" labelOnTop="0"/>
+        <field name="VILL_NAME" labelOnTop="0"/>
+        <field name="WIDTH_C" labelOnTop="0"/>
+        <field name="WIDTH_U" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>"NAME"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer minScale="1e+08" geometry="Point" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" maxScale="0" wkbType="Point" type="vector" simplifyLocal="1" readOnly="0" simplifyAlgorithm="0" simplifyMaxScale="1" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" simplifyDrawingHints="1" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" simplifyDrawingTol="1">
+      <extent>
+        <xmin>13478673.81758697144687176</xmin>
+        <ymin>2855022.84790830593556166</ymin>
+        <xmax>13514929.23990446142852306</xmax>
+        <ymax>2888163.41983837494626641</ymax>
+      </extent>
+      <id>ubike_station_2a0a4a7b_34c7_4260_bea4_7061d21274c6</id>
+      <datasource>./ubike_station.shp|layername=ubike_station</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ubike_station</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" name="0" clip_to_extent="1" type="marker" force_rhr="0">
+            <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="243,166,178,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="sna">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tot">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sbi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lat">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lng">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bemp">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="act">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sno">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sarea">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="mday">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ar">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sareaen">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="snaen">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aren">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_15">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_16">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_17">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="field_18">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="sna" index="0" name=""/>
+        <alias field="tot" index="1" name=""/>
+        <alias field="sbi" index="2" name=""/>
+        <alias field="lat" index="3" name=""/>
+        <alias field="lng" index="4" name=""/>
+        <alias field="bemp" index="5" name=""/>
+        <alias field="act" index="6" name=""/>
+        <alias field="sno" index="7" name=""/>
+        <alias field="sarea" index="8" name=""/>
+        <alias field="mday" index="9" name=""/>
+        <alias field="ar" index="10" name=""/>
+        <alias field="sareaen" index="11" name=""/>
+        <alias field="snaen" index="12" name=""/>
+        <alias field="aren" index="13" name=""/>
+        <alias field="field_15" index="14" name=""/>
+        <alias field="field_16" index="15" name=""/>
+        <alias field="field_17" index="16" name=""/>
+        <alias field="field_18" index="17" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="sna" applyOnUpdate="0" expression=""/>
+        <default field="tot" applyOnUpdate="0" expression=""/>
+        <default field="sbi" applyOnUpdate="0" expression=""/>
+        <default field="lat" applyOnUpdate="0" expression=""/>
+        <default field="lng" applyOnUpdate="0" expression=""/>
+        <default field="bemp" applyOnUpdate="0" expression=""/>
+        <default field="act" applyOnUpdate="0" expression=""/>
+        <default field="sno" applyOnUpdate="0" expression=""/>
+        <default field="sarea" applyOnUpdate="0" expression=""/>
+        <default field="mday" applyOnUpdate="0" expression=""/>
+        <default field="ar" applyOnUpdate="0" expression=""/>
+        <default field="sareaen" applyOnUpdate="0" expression=""/>
+        <default field="snaen" applyOnUpdate="0" expression=""/>
+        <default field="aren" applyOnUpdate="0" expression=""/>
+        <default field="field_15" applyOnUpdate="0" expression=""/>
+        <default field="field_16" applyOnUpdate="0" expression=""/>
+        <default field="field_17" applyOnUpdate="0" expression=""/>
+        <default field="field_18" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="sna" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="tot" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="sbi" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="lat" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="lng" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="bemp" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="act" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="sno" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="sarea" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="mday" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="ar" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="sareaen" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="snaen" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="aren" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_15" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_16" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_17" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="field_18" constraints="0" exp_strength="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="sna" desc="" exp=""/>
+        <constraint field="tot" desc="" exp=""/>
+        <constraint field="sbi" desc="" exp=""/>
+        <constraint field="lat" desc="" exp=""/>
+        <constraint field="lng" desc="" exp=""/>
+        <constraint field="bemp" desc="" exp=""/>
+        <constraint field="act" desc="" exp=""/>
+        <constraint field="sno" desc="" exp=""/>
+        <constraint field="sarea" desc="" exp=""/>
+        <constraint field="mday" desc="" exp=""/>
+        <constraint field="ar" desc="" exp=""/>
+        <constraint field="sareaen" desc="" exp=""/>
+        <constraint field="snaen" desc="" exp=""/>
+        <constraint field="aren" desc="" exp=""/>
+        <constraint field="field_15" desc="" exp=""/>
+        <constraint field="field_16" desc="" exp=""/>
+        <constraint field="field_17" desc="" exp=""/>
+        <constraint field="field_18" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" type="raster">
+      <extent>
+        <xmin>-20037507.84278824552893639</xmin>
+        <ymin>-30240971.9583861455321312</ymin>
+        <xmax>20037507.84278824552893639</xmax>
+        <ymax>30240971.45838614925742149</ymax>
+      </extent>
+      <id>公有土地地籍圖_257da9a0_ef0b_4dcf_952a_9cb151302ff9</id>
+      <datasource>crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=LAND_OPENDATA&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://wmts.nlsc.gov.tw/wmts</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>公有土地地籍圖</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer alphaBand="-1" opacity="1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeGreen="128" grayscaleMode="0" colorizeOn="0" saturation="0" colorizeRed="255" colorizeStrength="100" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" type="raster">
+      <extent>
+        <xmin>-20037508.34278925135731697</xmin>
+        <ymin>-20037508.34278923645615578</ymin>
+        <xmax>20037508.34278923645615578</xmax>
+        <ymax>20037508.34278925135731697</ymax>
+      </extent>
+      <id>桃園市桃園市都市計畫_103_105年_9c5cfe2a_32e7_4618_b676_33ba7e35b4f9</id>
+      <datasource>crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=TOPO01K_H16&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://maps.nlsc.gov.tw/wmtsTOPO01K/</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>桃園市桃園市都市計畫_103_105年</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer alphaBand="-1" opacity="1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeGreen="128" grayscaleMode="0" colorizeOn="0" saturation="0" colorizeRed="255" colorizeStrength="100" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" type="raster">
+      <extent>
+        <xmin>-20037507.84278824552893639</xmin>
+        <ymin>-30240971.9583861455321312</ymin>
+        <xmax>20037507.84278824552893639</xmax>
+        <ymax>30240971.45838614925742149</ymax>
+      </extent>
+      <id>正射影像圖_通用__83e7724f_efd4_4296_8e87_8a207764d59c</id>
+      <datasource>crs=EPSG:3857&amp;dpiMode=7&amp;format=image/jpeg&amp;layers=PHOTO2&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://wmts.nlsc.gov.tw/wmts</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>正射影像圖(通用)</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer alphaBand="-1" opacity="1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeGreen="128" grayscaleMode="0" colorizeOn="0" saturation="0" colorizeRed="255" colorizeStrength="100" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" type="raster">
+      <extent>
+        <xmin>-20037507.84278824552893639</xmin>
+        <ymin>-30240971.9583861455321312</ymin>
+        <xmax>20037507.84278824552893639</xmax>
+        <ymax>30240971.45838614925742149</ymax>
+      </extent>
+      <id>道路路網_bb151b3a_09a6_4c47_924b_2efd45dbbf83</id>
+      <datasource>crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=ROAD&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://wmts.nlsc.gov.tw/wmts</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>道路路網</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer alphaBand="-1" opacity="1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeGreen="128" grayscaleMode="0" colorizeOn="0" saturation="0" colorizeRed="255" colorizeStrength="100" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="OpenStreetMap_a6359ba0_0236_412a_bf29_76e31ebd8703"/>
+    <layer id="公有土地地籍圖_257da9a0_ef0b_4dcf_952a_9cb151302ff9"/>
+    <layer id="正射影像圖_通用__83e7724f_efd4_4296_8e87_8a207764d59c"/>
+    <layer id="A1H0010172V002_0c52dd05_7282_4064_9718_80cafb9c496a"/>
+    <layer id="B1H0010059V037_abcea60a_d2c0_4a88_8b60_e37db2ecd1a6"/>
+    <layer id="B1H0200002V025_ef899c24_60c6_4dd9_bb5e_4d34d19f3eec"/>
+    <layer id="VL0231V02_f6e84ebe_5284_4bdc_ad2f_657ddcb6ef14"/>
+    <layer id="ubike_station_2a0a4a7b_34c7_4260_bea4_7061d21274c6"/>
+    <layer id="桃園市桃園市都市計畫_103_105年_9c5cfe2a_32e7_4618_b676_33ba7e35b4f9"/>
+    <layer id="道路路網_bb151b3a_09a6_4c47_924b_2efd45dbbf83"/>
+  </layerorder>
+  <properties>
+    <CopyrightLabel>
+      <Enabled type="int">0</Enabled>
+      <Label type="QString"></Label>
+      <MarginH type="int">1</MarginH>
+      <MarginV type="int">1</MarginV>
+    </CopyrightLabel>
+    <DefaultStyles>
+      <ColorRamp type="QString"></ColorRamp>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <Opacity type="double">1</Opacity>
+      <RandomColors type="bool">true</RandomColors>
+    </DefaultStyles>
+    <Digitizing>
+      <AvoidIntersectionsMode type="int">0</AvoidIntersectionsMode>
+    </Digitizing>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <WCSLayers type="QStringList"/>
+    <WCSUrl type="QString"></WCSUrl>
+    <WFSLayers type="QStringList"/>
+    <WFSTLayers>
+      <Delete type="QStringList"/>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+    </WFSTLayers>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSDefaultMapUnitsPerMm type="double">8.983152841195214e-06</WMSDefaultMapUnitsPerMm>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSMaxAtlasFeatures type="int">1</WMSMaxAtlasFeatures>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSRootName type="QString"></WMSRootName>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSTileBuffer type="int">0</WMSTileBuffer>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMTSGrids>
+      <CRS type="QStringList"/>
+      <Config type="QStringList"/>
+    </WMTSGrids>
+    <WMTSJpegLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSJpegLayers>
+    <WMTSLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSLayers>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <WMTSPngLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSPngLayers>
+    <WMTSUrl type="QString"></WMTSUrl>
+  </properties>
+  <visibility-presets/>
+  <transformContext>
+    <srcDest dest="EPSG:3857" destTransform="" source="EPSG:3826" sourceTransform="+towgs84=0,0,0"/>
+  </transformContext>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
+    <links/>
+    <author>Erik</author>
+    <creation>2020-08-17T21:30:56</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+  </ProjectViewSettings>
+</qgis>
